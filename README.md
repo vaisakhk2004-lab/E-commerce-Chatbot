@@ -5,7 +5,7 @@ An AI-powered e-commerce chatbot that allows users to interact with product info
 The system intelligently classifies user queries into **FAQ** or **SQL-based product queries** using a Semantic Router. Depending on the query type, relevant information is retrieved from either a **ChromaDB vector database** or a **SQLite database**, and a Groq-hosted LLM generates the final natural-language response.
 
 ---
-
+![App interface](app/interface.png)
 ## 📌 Project Overview
 
 Traditional e-commerce search systems often require users to search using specific keywords or predefined filters.
