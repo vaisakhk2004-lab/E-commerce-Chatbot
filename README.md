@@ -26,13 +26,13 @@ The chatbot automatically determines the type of query and routes it to the appr
 
 The overall architecture of the E-Commerce AI Chatbot is shown below:
 
-![E-Commerce Chatbot Architecture](architecture.png)
+![E-Commerce Chatbot Architecture](https://raw.githubusercontent.com/vaisakhk2004-lab/E-commerce-Chatbot/main/app/architecture.png)
 
 The system follows a query-routing architecture where the **Semantic Router** classifies the user's query as either an FAQ or SQL query.
 
 - **FAQ queries** are handled using ChromaDB for retrieving relevant FAQ information.
 - **SQL queries** are processed using SQLite to retrieve relevant product information.
-- The retrieved context is provided to the **Groq LLM**, which generates the final response.
+- The retrieved context is provided to the **LLM**, which generates the final response.
 - The final response is displayed to the user through the **Streamlit** interface.
 
 ---
